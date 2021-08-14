@@ -47,4 +47,8 @@ table td {
   table {
     width: 100%;
   }
+  input[type='text'],
+  input[type='email'] {
+    width: 80%;
+  }
 }
