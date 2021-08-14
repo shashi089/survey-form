@@ -10,12 +10,12 @@
 
 form {
   border: 0.8px solid #000;
-  padding-top: 20px;
+  padding: 10px;
 }
 
 .username {
   display: flex;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 table td {
@@ -39,7 +39,7 @@ table td {
   * {
     font-size: 0.85rem;
   }
-form {
+  form {
     padding: 0;
   }
   .username {
@@ -48,6 +48,6 @@ form {
   }
   textarea,
   table {
-    width: 90%;
+    width: 100%;
   }
 }
