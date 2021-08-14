@@ -39,12 +39,15 @@ table td {
   * {
     font-size: 0.85rem;
   }
+form {
+    padding: 0;
+  }
   .username {
     flex-direction: column;
     gap: 1rem;
   }
   textarea,
   table {
-    width: 100%;
+    width: 90%;
   }
 }
