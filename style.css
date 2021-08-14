@@ -10,12 +10,12 @@
 
 form {
   border: 0.8px solid #000;
-  padding: 10px;
+  padding-top: 10px;
 }
 
 .username {
   display: flex;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 table td {
@@ -37,10 +37,7 @@ table td {
 
 @media (max-width: 576px) {
   * {
-    font-size: 0.85rem;
-  }
-  form {
-    padding: 0;
+    font-size: 0.8rem;
   }
   .username {
     flex-direction: column;
