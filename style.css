@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
-@font-face {
-  font-family: 'Font Awesome 5 Free';
-  src: url('https://use.fontawesome.com/releases/v5.0.6/css/all.css');
-}
+
 * {
   margin: 0;
   padding: 0;
@@ -73,7 +70,7 @@ label.star:hover {
 
 label.star:before {
   content: '\f006';
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'FontAwesome';
 }
 
 @media (max-width: 576px) {
